@@ -86,20 +86,20 @@ body {
 }
 #flexy {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 per rad */
-  gap: 20px; /* avstånd mellan rutor */
-  justify-items: center; /* centrera varje box */
-  align-items: center;   /* centrera vertikalt */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  justify-items: center;
+  align-items: center;  
   width: 100%;
-  max-width: 1600px; /* så att de inte blir för stora på enorma skärmar */
-  margin: 0 auto; /* centrera hela gridet på sidan */
+  max-width: 1600px; 
+  margin: 0 auto; 
   padding-top: 100px;
 }
 #flexy section {
  width: 100%;
-  aspect-ratio: 1 / 1; /* kvadratiska rutor */
+  aspect-ratio: 1 / 1;
   background-color: #8fa0bf;
-  opacity: 30%;
+  opacity: 70%;
   transition: 0.1s;
   display: flex;
   justify-content: center;
@@ -116,42 +116,42 @@ body {
     max-height: 60vh;
 }
 #boxy1 {
-  background-image: url("../img/Frödingekaka.jpg");
+  background-image: url("../img/american-heritage-chocolate-vdx5hPQhXFk-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy2 {
-  background-image: url("../img/Dietz.jpg");
+  background-image: url("../img/anh-nguyen-kcA-c3f_3FE-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy3 {
-  background-image: url("../img/Americancheese.jpg");
+  background-image: url("../img/anna-przepiorka-LjtviHokbr4-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy4 {
-  background-image: url("../img/Koppkaffe.jpg");
+  background-image: url("../img/arvid-skywalker-h6ccJcVHh20-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy5 {
-  background-image: url("../img/Korv.jpg");
+  background-image: url("../img/chad-montano-gE28aTnlqJA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy6 {
-  background-image: url("../img/Split.jpg");
+  background-image: url("../img/eiliv-aceron-_8bnn1GqX70-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy7 {
-  background-image: url("../img/Stroganoff.jpg");
+  background-image: url("../img/patrick-langwallner-Kt1Mk1BrqdU-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 #boxy8 {
-  background-image: url("../img/Suga.jpg");
+  background-image: url("../img/victoria-shes-UC0HZdUitWY-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
