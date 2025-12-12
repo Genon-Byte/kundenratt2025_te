@@ -79,3 +79,79 @@ body {
  background-position: center;
  background-repeat: no-repeat;
 }
+#wrapper_menu {
+  grid-template-areas: 
+  'f';
+  
+}
+#flexy {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per rad */
+  gap: 20px; /* avstånd mellan rutor */
+  justify-items: center; /* centrera varje box */
+  align-items: center;   /* centrera vertikalt */
+  width: 100%;
+  max-width: 1600px; /* så att de inte blir för stora på enorma skärmar */
+  margin: 0 auto; /* centrera hela gridet på sidan */
+  padding-top: 100px;
+}
+#flexy section {
+ width: 100%;
+  aspect-ratio: 1 / 1; /* kvadratiska rutor */
+  background-color: #8fa0bf;
+  opacity: 30%;
+  transition: 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+#flexy section:hover {
+  border: solid;
+    border-width: 1%;
+    border-color: #ffffff;
+    box-shadow: #ffffff 10px 10px 10px;
+    opacity: 100%;
+    flex-wrap: wrap;
+    max-height: 60vh;
+}
+#boxy1 {
+  background-image: url("../img/Frödingekaka.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy2 {
+  background-image: url("../img/Dietz.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy3 {
+  background-image: url("../img/Americancheese.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy4 {
+  background-image: url("../img/Koppkaffe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy5 {
+  background-image: url("../img/Korv.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy6 {
+  background-image: url("../img/Split.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy7 {
+  background-image: url("../img/Stroganoff.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#boxy8 {
+  background-image: url("../img/Suga.jpg");
+  background-size: cover;
+  background-position: center;
+}
