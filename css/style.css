@@ -1,6 +1,6 @@
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 98vh;
+  width: 98%;
   background-color: #a5b58d;
 }
 #Header {
@@ -37,7 +37,7 @@ body {
  grid-template-rows: 75px 1fr 1fr 1fr;
  border: solid #f6efe8;
  height: 98vh;
- width: 100%;
+ width: 98%;
 }
 #Main_box {
  grid-area: Mab;
@@ -154,4 +154,35 @@ body {
   background-image: url("../img/victoria-shes-UC0HZdUitWY-unsplash.jpg");
   background-size: cover;
   background-position: center;
+}
+#aboutus {
+  grid-template-areas: 
+  'b1 b1 b1 b2 b2'
+  'b1 b1 b1 b3 b3'
+  'b4 b4 b4 b3 b3'
+  'b4 b4 b4 b3 b3';
+  display: grid;
+  height: 98vh;
+  width: 98%;
+  padding-top: 100px;
+}
+#box1 {
+  grid-area: b1;
+  border: solid #f6efe8;
+  text-align: center;
+}
+#box2 {
+  grid-area: b2;
+  border: solid #f6efe8;
+  text-align: center;
+}
+#box3 {
+  grid-area: b3;
+  border: solid #f6efe8;
+  text-align: center;
+}
+#box4 {
+  grid-area: b4;
+  border: solid #f6efe8;
+  text-align: center;
 }
